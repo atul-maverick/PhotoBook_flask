@@ -1,0 +1,106 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,bytes,grpThreads,allThreads,URL,Filename,Latency,Connect
+1436677432618,1152,HTTP Request,200,OK,Thread Group 1-1,text,true,742389,1,1,http://52.10.207.79:8080/getAllMyImage,,147,68
+1436677466808,1141,HTTP Request,200,OK,Thread Group 1-1,text,true,742389,6,6,http://52.10.207.79:8080/getAllMyImage,,149,69
+1436677467025,1866,HTTP Request,200,OK,Thread Group 1-2,text,true,742389,10,10,http://52.10.207.79:8080/getAllMyImage,,863,69
+1436677467231,2617,HTTP Request,200,OK,Thread Group 1-3,text,true,742389,14,14,http://52.10.207.79:8080/getAllMyImage,,1599,68
+1436677467423,3464,HTTP Request,200,OK,Thread Group 1-4,text,true,742389,18,18,http://52.10.207.79:8080/getAllMyImage,,2415,67
+1436677467626,4318,HTTP Request,200,OK,Thread Group 1-5,text,true,742389,22,22,http://52.10.207.79:8080/getAllMyImage,,3212,67
+1436677467826,5013,HTTP Request,200,OK,Thread Group 1-6,text,true,742389,26,26,http://52.10.207.79:8080/getAllMyImage,,3993,68
+1436677468026,5738,HTTP Request,200,OK,Thread Group 1-7,text,true,742389,29,29,http://52.10.207.79:8080/getAllMyImage,,4752,67
+1436677468228,6534,HTTP Request,200,OK,Thread Group 1-8,text,true,742389,33,33,http://52.10.207.79:8080/getAllMyImage,,5476,66
+1436677468430,7285,HTTP Request,200,OK,Thread Group 1-9,text,true,742389,37,37,http://52.10.207.79:8080/getAllMyImage,,6274,67
+1436677468831,7821,HTTP Request,200,OK,Thread Group 1-11,text,true,742389,41,41,http://52.10.207.79:8080/getAllMyImage,,6822,67
+1436677468630,8944,HTTP Request,200,OK,Thread Group 1-10,text,true,742389,40,40,http://52.10.207.79:8080/getAllMyImage,,7955,67
+1436677471433,7154,HTTP Request,200,OK,Thread Group 1-24,text,true,742389,39,39,http://52.10.207.79:8080/getAllMyImage,,6146,67
+1436677469830,9442,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-16,text,false,2452,38,38,http://52.10.207.79:8080/getAllMyImage,,0,68
+1436677472434,7091,HTTP Request,200,OK,Thread Group 1-29,text,true,742389,37,37,http://52.10.207.79:8080/getAllMyImage,,6087,68
+1436677470231,9439,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-18,text,false,2452,36,36,http://52.10.207.79:8080/getAllMyImage,,0,69
+1436677470634,9826,HTTP Request,200,OK,Thread Group 1-20,text,true,742389,35,35,http://52.10.207.79:8080/getAllMyImage,,8816,3067
+1436677471237,10404,HTTP Request,200,OK,Thread Group 1-23,text,true,742389,34,34,http://52.10.207.79:8080/getAllMyImage,,9287,66
+1436677472835,9432,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-31,text,false,2452,33,33,http://52.10.207.79:8080/getAllMyImage,,0,68
+1436677474640,7955,HTTP Request,200,OK,Thread Group 1-40,text,true,742389,32,32,http://52.10.207.79:8080/getAllMyImage,,6878,68
+1436677475639,7825,HTTP Request,200,OK,Thread Group 1-45,text,true,742389,31,31,http://52.10.207.79:8080/getAllMyImage,,6829,68
+1436677476642,7770,HTTP Request,200,OK,Thread Group 1-50,text,true,742389,30,30,http://52.10.207.79:8080/getAllMyImage,,6764,68
+1436677469631,15709,HTTP Request,200,OK,Thread Group 1-15,text,true,742389,29,29,http://52.10.207.79:8080/getAllMyImage,,14714,9065
+1436677470431,15919,HTTP Request,200,OK,Thread Group 1-19,text,true,742389,28,28,http://52.10.207.79:8080/getAllMyImage,,14846,9065
+1436677475837,11672,HTTP Request,200,OK,Thread Group 1-46,text,true,742389,27,27,http://52.10.207.79:8080/getAllMyImage,,10582,69
+1436677470027,18162,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-17,text,false,2452,26,26,http://52.10.207.79:8080/getAllMyImage,,0,9071
+1436677476038,12167,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-47,text,false,2452,25,25,http://52.10.207.79:8080/getAllMyImage,,0,3072
+1436677476441,12154,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-49,text,false,2452,24,24,http://52.10.207.79:8080/getAllMyImage,,0,3063
+1436677473637,15021,HTTP Request,200,OK,Thread Group 1-35,text,true,742389,23,23,http://52.10.207.79:8080/getAllMyImage,,13944,68
+1436677472234,17371,HTTP Request,200,OK,Thread Group 1-28,text,true,742389,22,22,http://52.10.207.79:8080/getAllMyImage,,16361,9061
+1436677469029,20997,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-12,text,false,2266,21,21,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677469230,21003,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-13,text,false,2266,20,20,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677469430,21004,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-14,text,false,2266,19,19,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677474439,16126,HTTP Request,200,OK,Thread Group 1-39,text,true,742389,18,18,http://52.10.207.79:8080/getAllMyImage,,15106,9071
+1436677471835,18975,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-26,text,false,2516,17,17,http://52.10.207.79:8080/getAllMyImage,,0,70
+1436677473837,17739,HTTP Request,200,OK,Thread Group 1-36,text,true,742389,16,16,http://52.10.207.79:8080/getAllMyImage,,16726,9068
+1436677470832,20998,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-21,text,false,2266,15,15,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677471032,20995,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-22,text,false,2266,14,14,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677473236,18968,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-33,text,false,2516,13,13,http://52.10.207.79:8080/getAllMyImage,,0,67
+1436677475039,17470,HTTP Request,200,OK,Thread Group 1-42,text,true,742389,12,12,http://52.10.207.79:8080/getAllMyImage,,16468,9070
+1436677476240,17203,HTTP Request,200,OK,Thread Group 1-48,text,true,742389,11,11,http://52.10.207.79:8080/getAllMyImage,,16206,9067
+1436677472635,21011,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-30,text,false,2266,10,10,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677473032,21004,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-32,text,false,2266,9,9,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677475240,19412,HTTP Request,200,OK,Thread Group 1-43,text,true,742389,8,8,http://52.10.207.79:8080/getAllMyImage,,18291,9069
+1436677474238,21001,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-38,text,false,2266,7,7,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677472034,23857,HTTP Request,200,OK,Thread Group 1-27,text,true,742389,6,6,http://52.10.207.79:8080/getAllMyImage,,22699,9079
+1436677475439,20999,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-44,text,false,2266,5,5,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436677471637,25414,HTTP Request,200,OK,Thread Group 1-25,text,true,742389,4,4,http://52.10.207.79:8080/getAllMyImage,,24321,3080
+1436677473437,24833,HTTP Request,200,OK,Thread Group 1-34,text,true,742389,3,3,http://52.10.207.79:8080/getAllMyImage,,23679,9067
+1436677474039,25409,HTTP Request,200,OK,Thread Group 1-37,text,true,742389,2,2,http://52.10.207.79:8080/getAllMyImage,,24301,3070
+1436677474838,25753,HTTP Request,200,OK,Thread Group 1-41,text,true,742389,1,1,http://52.10.207.79:8080/getAllMyImage,,24675,3071
+1436677859302,147,HTTP Request,500,Internal Server Error,Thread Group 1-1,text,false,1621,1,1,http://52.10.207.79:8080/getupimage,,147,68
+1436677940643,147,HTTP Request,500,Internal Server Error,Thread Group 1-1,text,false,1769,1,1,http://52.10.207.79:8080/getupimage,,144,68
+1436678124795,1103,HTTP Request,200,OK,Thread Group 1-1,text,true,681749,1,1,http://52.10.207.79:8080/getupimage,,149,68
+1436678193386,1159,HTTP Request,200,OK,Thread Group 1-1,text,true,742389,1,1,http://52.10.207.79:8080/getAllMyImage,,146,69
+1436678207447,1183,HTTP Request,200,OK,Thread Group 1-1,text,true,742389,6,6,http://52.10.207.79:8080/getAllMyImage,,192,114
+1436678207645,1928,HTTP Request,200,OK,Thread Group 1-2,text,true,742389,10,10,http://52.10.207.79:8080/getAllMyImage,,922,67
+1436678207846,2665,HTTP Request,200,OK,Thread Group 1-3,text,true,742389,14,14,http://52.10.207.79:8080/getAllMyImage,,1662,67
+1436678208046,3394,HTTP Request,200,OK,Thread Group 1-4,text,true,742389,17,17,http://52.10.207.79:8080/getAllMyImage,,2404,68
+1436678208249,4114,HTTP Request,200,OK,Thread Group 1-5,text,true,742389,21,21,http://52.10.207.79:8080/getAllMyImage,,3129,67
+1436678208446,4865,HTTP Request,200,OK,Thread Group 1-6,text,true,742389,25,25,http://52.10.207.79:8080/getAllMyImage,,3856,69
+1436678208652,5586,HTTP Request,200,OK,Thread Group 1-7,text,true,742389,28,28,http://52.10.207.79:8080/getAllMyImage,,4594,67
+1436678208848,6435,HTTP Request,200,OK,Thread Group 1-8,text,true,742389,33,33,http://52.10.207.79:8080/getAllMyImage,,5383,67
+1436678209455,6775,HTTP Request,200,OK,Thread Group 1-11,text,true,742389,36,36,http://52.10.207.79:8080/getAllMyImage,,5707,67
+1436678210056,7161,HTTP Request,200,OK,Thread Group 1-14,text,true,742389,40,40,http://52.10.207.79:8080/getAllMyImage,,6119,69
+1436678209249,8919,HTTP Request,200,OK,Thread Group 1-10,text,true,742389,40,40,http://52.10.207.79:8080/getAllMyImage,,7902,69
+1436678209051,10230,HTTP Request,200,OK,Thread Group 1-9,text,true,742389,39,39,http://52.10.207.79:8080/getAllMyImage,,9180,68
+1436678212261,7970,HTTP Request,200,OK,Thread Group 1-25,text,true,742389,38,38,http://52.10.207.79:8080/getAllMyImage,,6959,69
+1436678212059,9182,HTTP Request,200,OK,Thread Group 1-24,text,true,742389,37,37,http://52.10.207.79:8080/getAllMyImage,,8103,68
+1436678213664,8531,HTTP Request,200,OK,Thread Group 1-32,text,true,742389,36,36,http://52.10.207.79:8080/getAllMyImage,,7524,67
+1436678211660,11544,HTTP Request,200,OK,Thread Group 1-22,text,true,742389,35,35,http://52.10.207.79:8080/getAllMyImage,,10527,3068
+1436678217077,7053,HTTP Request,200,OK,Thread Group 1-49,text,true,742389,34,34,http://52.10.207.79:8080/getAllMyImage,,6059,68
+1436678215269,9875,HTTP Request,200,OK,Thread Group 1-40,text,true,742389,33,33,http://52.10.207.79:8080/getAllMyImage,,8865,3162
+1436678216274,9818,HTTP Request,200,OK,Thread Group 1-45,text,true,742389,32,32,http://52.10.207.79:8080/getAllMyImage,,8804,3060
+1436678211257,15848,HTTP Request,200,OK,Thread Group 1-20,text,true,742389,31,31,http://52.10.207.79:8080/getAllMyImage,,14772,9082
+1436678214666,13517,HTTP Request,200,OK,Thread Group 1-37,text,true,742389,30,30,http://52.10.207.79:8080/getAllMyImage,,12441,3068
+1436678216073,13048,HTTP Request,200,OK,Thread Group 1-44,text,true,742389,29,29,http://52.10.207.79:8080/getAllMyImage,,12046,3059
+1436678217275,12158,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-50,text,false,2452,28,28,http://52.10.207.79:8080/getAllMyImage,,0,3072
+1436678210458,18976,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-16,text,false,2516,28,28,http://52.10.207.79:8080/getAllMyImage,,0,68
+1436678210658,18969,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-17,text,false,2516,26,26,http://52.10.207.79:8080/getAllMyImage,,0,66
+1436678211862,18142,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-23,text,false,2452,25,25,http://52.10.207.79:8080/getAllMyImage,,0,9061
+1436678214268,15866,HTTP Request,200,OK,Thread Group 1-35,text,true,742389,24,24,http://52.10.207.79:8080/getAllMyImage,,14791,9066
+1436678209657,21005,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-12,text,false,2266,23,23,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678213267,18054,HTTP Request,200,OK,Thread Group 1-30,text,true,742389,22,22,http://52.10.207.79:8080/getAllMyImage,,16928,3070
+1436678210858,21000,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-18,text,false,2266,21,21,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678211058,21017,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-19,text,false,2266,20,20,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678213064,19393,HTTP Request,200,OK,Thread Group 1-29,text,true,742389,19,19,http://52.10.207.79:8080/getAllMyImage,,18328,3058
+1436678211462,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-21,text,false,2266,18,18,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678213866,19601,HTTP Request,200,OK,Thread Group 1-33,text,true,742389,17,17,http://52.10.207.79:8080/getAllMyImage,,18527,9071
+1436678212463,21011,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-26,text,false,2266,16,16,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678212863,20997,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-28,text,false,2266,15,15,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678215071,18981,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-39,text,false,2516,14,14,http://52.10.207.79:8080/getAllMyImage,,0,66
+1436678210257,24164,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-15,text,false,2452,13,13,http://52.10.207.79:8080/getAllMyImage,,0,3070
+1436678209856,24755,HTTP Request,200,OK,Thread Group 1-13,text,true,742389,12,12,http://52.10.207.79:8080/getAllMyImage,,23618,9067
+1436678214064,20999,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-34,text,false,2266,11,11,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678216475,19145,HTTP Request,200,OK,Thread Group 1-46,text,true,742389,10,10,http://52.10.207.79:8080/getAllMyImage,,18077,9072
+1436678215671,20996,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-42,text,false,2266,9,9,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678216674,20139,HTTP Request,200,OK,Thread Group 1-47,text,true,742389,8,8,http://52.10.207.79:8080/getAllMyImage,,19011,9071
+1436678215873,20999,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-43,text,false,2266,7,7,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678216874,21005,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-48,text,false,2266,6,6,http://52.10.207.79:8080/getAllMyImage,,0,0
+1436678213464,24457,HTTP Request,200,OK,Thread Group 1-31,text,true,742389,6,6,http://52.10.207.79:8080/getAllMyImage,,23363,9059
+1436678214866,24299,HTTP Request,200,OK,Thread Group 1-38,text,true,742389,4,4,http://52.10.207.79:8080/getAllMyImage,,23154,9068
+1436678214469,25801,HTTP Request,200,OK,Thread Group 1-36,text,true,742389,3,3,http://52.10.207.79:8080/getAllMyImage,,24708,3066
+1436678215469,25922,HTTP Request,200,OK,Thread Group 1-41,text,true,742389,2,2,http://52.10.207.79:8080/getAllMyImage,,24866,9066
+1436678212664,31381,HTTP Request,200,OK,Thread Group 1-27,text,true,742389,1,1,http://52.10.207.79:8080/getAllMyImage,,30294,9065

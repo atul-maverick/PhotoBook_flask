@@ -1,0 +1,181 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,bytes,grpThreads,allThreads,URL,Filename,Latency,Connect
+1436678388698,1096,HTTP Request,200,OK,Thread Group 1-1,text,true,681749,6,6,http://52.10.207.79:8080/getupimage,,152,71
+1436678388897,1838,HTTP Request,200,OK,Thread Group 1-2,text,true,681749,10,10,http://52.10.207.79:8080/getupimage,,840,70
+1436678389094,2447,HTTP Request,200,OK,Thread Group 1-3,text,true,681749,13,13,http://52.10.207.79:8080/getupimage,,1526,66
+1436678389295,3123,HTTP Request,200,OK,Thread Group 1-4,text,true,681749,16,16,http://52.10.207.79:8080/getupimage,,2189,68
+1436678389500,3836,HTTP Request,200,OK,Thread Group 1-5,text,true,681749,20,20,http://52.10.207.79:8080/getupimage,,2857,68
+1436678389699,4501,HTTP Request,200,OK,Thread Group 1-6,text,true,681749,23,23,http://52.10.207.79:8080/getupimage,,3583,67
+1436678389902,5165,HTTP Request,200,OK,Thread Group 1-7,text,true,681749,26,26,http://52.10.207.79:8080/getupimage,,4238,68
+1436678390101,5919,HTTP Request,200,OK,Thread Group 1-8,text,true,681749,30,30,http://52.10.207.79:8080/getupimage,,4904,73
+1436678390504,6401,HTTP Request,200,OK,Thread Group 1-10,text,true,681749,33,33,http://52.10.207.79:8080/getupimage,,5406,68
+1436678390301,7427,HTTP Request,200,OK,Thread Group 1-9,text,true,681749,37,37,http://52.10.207.79:8080/getupimage,,6483,70
+1436678392309,6346,HTTP Request,200,OK,Thread Group 1-19,text,true,681749,40,40,http://52.10.207.79:8080/getupimage,,5419,70
+1436678392909,6638,HTTP Request,200,OK,Thread Group 1-22,text,true,681749,39,39,http://52.10.207.79:8080/getupimage,,5688,70
+1436678391908,8518,HTTP Request,200,OK,Thread Group 1-17,text,true,681749,38,38,http://52.10.207.79:8080/getupimage,,7582,69
+1436678393312,7983,HTTP Request,200,OK,Thread Group 1-24,text,true,681749,37,37,http://52.10.207.79:8080/getupimage,,7053,67
+1436678394916,7312,HTTP Request,200,OK,Thread Group 1-32,text,true,681749,36,36,http://52.10.207.79:8080/getupimage,,6349,68
+1436678396722,6387,HTTP Request,200,OK,Thread Group 1-41,text,true,681749,35,35,http://52.10.207.79:8080/getupimage,,5444,68
+1436678393112,10945,HTTP Request,200,OK,Thread Group 1-23,text,true,681749,34,34,http://52.10.207.79:8080/getupimage,,9937,3064
+1436678394112,10807,HTTP Request,200,OK,Thread Group 1-28,text,true,681749,33,33,http://52.10.207.79:8080/getupimage,,9890,3063
+1436678398528,7272,HTTP Request,200,OK,Thread Group 1-50,text,true,681749,32,32,http://52.10.207.79:8080/getupimage,,6333,69
+1436678391303,15410,HTTP Request,200,OK,Thread Group 1-14,text,true,681749,31,31,http://52.10.207.79:8080/getupimage,,14435,9066
+1436678394714,12166,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-31,text,false,2452,30,30,http://52.10.207.79:8080/getupimage,,0,3076
+1436678393514,14258,HTTP Request,200,OK,Thread Group 1-25,text,true,681749,29,29,http://52.10.207.79:8080/getupimage,,13273,67
+1436678395518,13654,HTTP Request,200,OK,Thread Group 1-35,text,true,681749,28,28,http://52.10.207.79:8080/getupimage,,12321,3070
+1436678390703,18976,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-11,text,false,2516,27,27,http://52.10.207.79:8080/getupimage,,0,68
+1436678390902,19153,HTTP Request,200,OK,Thread Group 1-12,text,true,681749,26,26,http://52.10.207.79:8080/getupimage,,18209,9069
+1436678392105,18164,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-18,text,false,2452,25,25,http://52.10.207.79:8080/getupimage,,0,9069
+1436678391507,18988,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-15,text,false,2516,24,24,http://52.10.207.79:8080/getupimage,,0,68
+1436678392707,18162,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-21,text,false,2452,23,23,http://52.10.207.79:8080/getupimage,,0,9076
+1436678397322,13800,HTTP Request,200,OK,Thread Group 1-44,text,true,681749,22,22,http://52.10.207.79:8080/getupimage,,12805,3062
+1436678395717,16365,HTTP Request,200,OK,Thread Group 1-36,text,true,681749,21,21,http://52.10.207.79:8080/getupimage,,15406,9075
+1436678391104,20993,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-13,text,false,2266,20,20,http://52.10.207.79:8080/getupimage,,0,0
+1436678393711,19228,HTTP Request,200,OK,Thread Group 1-26,text,true,681749,19,19,http://52.10.207.79:8080/getupimage,,18310,9070
+1436678392511,21011,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-20,text,false,2266,18,18,http://52.10.207.79:8080/getupimage,,0,0
+1436678397524,16442,HTTP Request,200,OK,Thread Group 1-45,text,true,681749,17,17,http://52.10.207.79:8080/getupimage,,15420,9075
+1436678396121,18723,HTTP Request,200,OK,Thread Group 1-38,text,true,681749,16,16,http://52.10.207.79:8080/getupimage,,17786,9067
+1436678395922,18976,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-37,text,false,2516,15,15,http://52.10.207.79:8080/getupimage,,0,68
+1436678393912,20995,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-27,text,false,2266,14,14,http://52.10.207.79:8080/getupimage,,0,0
+1436678394517,21010,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-30,text,false,2266,13,13,http://52.10.207.79:8080/getupimage,,0,0
+1436678395115,21018,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-33,text,false,2266,12,12,http://52.10.207.79:8080/getupimage,,0,0
+1436678396922,19348,HTTP Request,200,OK,Thread Group 1-42,text,true,681749,11,11,http://52.10.207.79:8080/getupimage,,18303,9073
+1436678397723,18976,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-46,text,false,2516,10,10,http://52.10.207.79:8080/getupimage,,0,69
+1436678397922,19248,HTTP Request,200,OK,Thread Group 1-47,text,true,681749,9,9,http://52.10.207.79:8080/getupimage,,18298,9071
+1436678396319,21001,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-39,text,false,2266,8,8,http://52.10.207.79:8080/getupimage,,0,0
+1436678397122,20995,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-43,text,false,2266,7,7,http://52.10.207.79:8080/getupimage,,0,0
+1436678394314,23917,HTTP Request,200,OK,Thread Group 1-29,text,true,681749,6,6,http://52.10.207.79:8080/getupimage,,22922,9076
+1436678395315,24012,HTTP Request,200,OK,Thread Group 1-34,text,true,681749,5,5,http://52.10.207.79:8080/getupimage,,22986,9073
+1436678398325,21004,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-49,text,false,2266,4,4,http://52.10.207.79:8080/getupimage,,0,0
+1436678398124,275631,HTTP Request,200,OK,Thread Group 1-48,text,true,681749,3,3,http://52.10.207.79:8080/getupimage,,274481,9072
+1436678396522,277761,HTTP Request,Non HTTP response code: org.apache.http.ConnectionClosedException,Non HTTP response message: Premature end of Content-Length delimited message body (expected: 681592; received: 243796,Thread Group 1-40,text,false,1176,2,2,http://52.10.207.79:8080/getupimage,,277335,3061
+1436678391705,284917,HTTP Request,Non HTTP response code: org.apache.http.ConnectionClosedException,Non HTTP response message: Premature end of Content-Length delimited message body (expected: 681592; received: 66388,Thread Group 1-16,text,false,1175,1,1,http://52.10.207.79:8080/getupimage,,283292,3076
+1436678692876,7392,HTTP Request,200,OK,Thread Group 1-1,text,true,681749,37,37,http://52.10.207.79:8080/getupimage,,345,166
+1436678693071,8319,HTTP Request,200,OK,Thread Group 1-2,text,true,681749,42,42,http://52.10.207.79:8080/getupimage,,6611,66
+1436678693276,9903,HTTP Request,200,OK,Thread Group 1-3,text,true,681749,48,48,http://52.10.207.79:8080/getupimage,,8088,69
+1436678693478,11431,HTTP Request,200,OK,Thread Group 1-4,text,true,681749,47,47,http://52.10.207.79:8080/getupimage,,9641,67
+1436678693674,12958,HTTP Request,200,OK,Thread Group 1-5,text,true,681749,46,46,http://52.10.207.79:8080/getupimage,,11179,67
+1436678693879,14365,HTTP Request,200,OK,Thread Group 1-6,text,true,681749,45,45,http://52.10.207.79:8080/getupimage,,12697,67
+1436678698893,9435,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-31,text,false,2452,44,44,http://52.10.207.79:8080/getupimage,,0,69
+1436678700500,9436,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-39,text,false,2452,43,43,http://52.10.207.79:8080/getupimage,,0,69
+1436678694079,15929,HTTP Request,200,OK,Thread Group 1-7,text,true,681749,42,42,http://52.10.207.79:8080/getupimage,,14107,69
+1436678698292,12159,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-28,text,false,2452,41,41,http://52.10.207.79:8080/getupimage,,0,3072
+1436678701299,9433,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-43,text,false,2452,40,40,http://52.10.207.79:8080/getupimage,,0,69
+1436678698692,13040,HTTP Request,200,OK,Thread Group 1-30,text,true,681749,39,39,http://52.10.207.79:8080/getupimage,,11262,67
+1436678699697,12158,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-35,text,false,2452,38,38,http://52.10.207.79:8080/getupimage,,0,9070
+1436678694278,18984,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-8,text,false,2516,37,37,http://52.10.207.79:8080/getupimage,,0,68
+1436678700700,12653,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-40,text,false,2452,36,36,http://52.10.207.79:8080/getupimage,,0,3067
+1436678694882,18471,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-11,text,false,2452,36,36,http://52.10.207.79:8080/getupimage,,0,9071
+1436678694481,18971,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-9,text,false,2516,34,34,http://52.10.207.79:8080/getupimage,,0,68
+1436678695686,18988,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-15,text,false,2516,33,33,http://52.10.207.79:8080/getupimage,,0,68
+1436678695886,18968,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-16,text,false,2516,32,32,http://52.10.207.79:8080/getupimage,,0,67
+1436678696288,18603,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-18,text,false,2452,31,31,http://52.10.207.79:8080/getupimage,,0,9072
+1436678694681,21000,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-10,text,false,2266,30,30,http://52.10.207.79:8080/getupimage,,0,0
+1436678696688,19092,HTTP Request,200,OK,Thread Group 1-20,text,true,681749,29,29,http://52.10.207.79:8080/getupimage,,14984,3072
+1436678697690,18154,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-25,text,false,2452,28,28,http://52.10.207.79:8080/getupimage,,0,9065
+1436678695081,20996,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-12,text,false,2266,27,27,http://52.10.207.79:8080/getupimage,,0,0
+1436678697289,18970,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-23,text,false,2516,26,26,http://52.10.207.79:8080/getupimage,,0,68
+1436678695283,20993,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-13,text,false,2266,25,25,http://52.10.207.79:8080/getupimage,,0,0
+1436678697494,18970,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-24,text,false,2516,24,24,http://52.10.207.79:8080/getupimage,,0,68
+1436678695485,21009,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-14,text,false,2266,23,23,http://52.10.207.79:8080/getupimage,,0,0
+1436678700096,16970,HTTP Request,200,OK,Thread Group 1-37,text,true,681749,22,22,http://52.10.207.79:8080/getupimage,,15693,3073
+1436678696491,20998,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-19,text,false,2266,21,21,http://52.10.207.79:8080/getupimage,,0,0
+1436678696891,21003,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-21,text,false,2266,20,20,http://52.10.207.79:8080/getupimage,,0,0
+1436678697091,21005,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-22,text,false,2266,19,19,http://52.10.207.79:8080/getupimage,,0,0
+1436678701903,16392,HTTP Request,200,OK,Thread Group 1-46,text,true,681749,18,18,http://52.10.207.79:8080/getupimage,,15044,3063
+1436678698095,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-27,text,false,2266,17,17,http://52.10.207.79:8080/getupimage,,0,0
+1436678696087,23403,HTTP Request,200,OK,Thread Group 1-17,text,true,681749,16,16,http://52.10.207.79:8080/getupimage,,22088,9070
+1436678698496,21009,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-29,text,false,2266,15,15,http://52.10.207.79:8080/getupimage,,0,0
+1436678699093,21770,HTTP Request,200,OK,Thread Group 1-32,text,true,681749,14,14,http://52.10.207.79:8080/getupimage,,20377,9062
+1436678700297,21005,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-38,text,false,2266,13,13,http://52.10.207.79:8080/getupimage,,0,0
+1436678702506,18962,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-49,text,false,2516,12,12,http://52.10.207.79:8080/getupimage,,0,66
+1436678699295,22715,HTTP Request,200,OK,Thread Group 1-33,text,true,681749,11,11,http://52.10.207.79:8080/getupimage,,21447,9072
+1436678701504,20992,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-44,text,false,2266,10,10,http://52.10.207.79:8080/getupimage,,0,0
+1436678701700,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-45,text,false,2266,9,9,http://52.10.207.79:8080/getupimage,,0,0
+1436678702101,21006,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-47,text,false,2266,8,8,http://52.10.207.79:8080/getupimage,,0,0
+1436678702702,20907,HTTP Request,200,OK,Thread Group 1-50,text,true,681749,7,7,http://52.10.207.79:8080/getupimage,,19250,9067
+1436678697891,27027,HTTP Request,200,OK,Thread Group 1-26,text,true,681749,6,6,http://52.10.207.79:8080/getupimage,,25721,9072
+1436678701100,25073,HTTP Request,200,OK,Thread Group 1-42,text,true,681749,5,5,http://52.10.207.79:8080/getupimage,,23830,9070
+1436678699500,27926,HTTP Request,200,OK,Thread Group 1-34,text,true,681749,4,4,http://52.10.207.79:8080/getupimage,,26679,3071
+1436678702306,26445,HTTP Request,200,OK,Thread Group 1-48,text,true,681749,3,3,http://52.10.207.79:8080/getupimage,,25196,9073
+1436678699895,31553,HTTP Request,200,OK,Thread Group 1-36,text,true,681749,2,2,http://52.10.207.79:8080/getupimage,,30304,9075
+1436678700897,31902,HTTP Request,200,OK,Thread Group 1-41,text,true,681749,1,1,http://52.10.207.79:8080/getupimage,,30624,9066
+1436678750133,1251,HTTP Request,200,OK,Thread Group 1-1,text,true,681749,7,7,http://52.10.207.79:8080/getupimage,,146,66
+1436678750330,2168,HTTP Request,200,OK,Thread Group 1-2,text,true,681749,11,11,http://52.10.207.79:8080/getupimage,,1002,69
+1436678750534,3120,HTTP Request,200,OK,Thread Group 1-3,text,true,681749,16,16,http://52.10.207.79:8080/getupimage,,1901,67
+1436678750734,3997,HTTP Request,200,OK,Thread Group 1-4,text,true,681749,20,20,http://52.10.207.79:8080/getupimage,,2860,67
+1436678750932,4898,HTTP Request,200,OK,Thread Group 1-5,text,true,681749,25,25,http://52.10.207.79:8080/getupimage,,3740,67
+1436678754749,1213,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-24,text,false,2508,25,25,http://52.10.207.79:8080/getupimage,,0,68
+1436678752943,3020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-15,text,false,2034,25,25,http://52.10.207.79:8080/getupimage,,0,0
+1436678751937,4028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,2508,23,23,http://52.10.207.79:8080/getupimage,,0,67
+1436678753745,2222,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-19,text,false,2034,22,22,http://52.10.207.79:8080/getupimage,,0,0
+1436678751536,4434,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-8,text,false,2508,21,21,http://52.10.207.79:8080/getupimage,,0,1444
+1436678755148,824,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-26,text,false,2034,20,20,http://52.10.207.79:8080/getupimage,,0,0
+1436678755748,225,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-29,text,false,2034,20,20,http://52.10.207.79:8080/getupimage,,0,0
+1436678751337,4638,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,2508,20,20,http://52.10.207.79:8080/getupimage,,0,74
+1436678755349,629,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-27,text,false,2034,18,18,http://52.10.207.79:8080/getupimage,,0,0
+1436678751139,4845,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,1345,16,16,http://52.10.207.79:8080/getupimage,,4632,68
+1436678754946,1043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-25,text,false,2508,16,16,http://52.10.207.79:8080/getupimage,,0,68
+1436678754345,1647,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-22,text,false,2034,14,14,http://52.10.207.79:8080/getupimage,,0,0
+1436678753144,2849,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-16,text,false,2508,14,14,http://52.10.207.79:8080/getupimage,,0,68
+1436678752743,3252,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-14,text,false,2508,12,12,http://52.10.207.79:8080/getupimage,,0,69
+1436678755550,446,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-28,text,false,2034,12,12,http://52.10.207.79:8080/getupimage,,0,0
+1436678753546,2451,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-18,text,false,2508,10,10,http://52.10.207.79:8080/getupimage,,0,68
+1436678752543,3455,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-13,text,false,2508,10,10,http://52.10.207.79:8080/getupimage,,0,163
+1436678754144,1856,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-21,text,false,2508,8,8,http://52.10.207.79:8080/getupimage,,0,69
+1436678752340,3662,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-12,text,false,2508,7,7,http://52.10.207.79:8080/getupimage,,0,3074
+1436678752140,3865,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-11,text,false,2034,6,6,http://52.10.207.79:8080/getupimage,,0,0
+1436678753344,2662,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-17,text,false,2034,6,6,http://52.10.207.79:8080/getupimage,,0,0
+1436678751740,4267,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,2508,4,4,http://52.10.207.79:8080/getupimage,,0,68
+1436678753945,2064,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-20,text,false,2034,3,3,http://52.10.207.79:8080/getupimage,,0,0
+1436678754548,1464,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-23,text,false,2034,2,2,http://52.10.207.79:8080/getupimage,,0,0
+1436678755950,63,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Thread Group 1-30,text,false,2034,2,2,http://52.10.207.79:8080/getupimage,,0,0
+1436678767661,1267,HTTP Request,200,OK,Thread Group 1-1,text,true,681749,7,7,http://52.10.207.79:8080/getupimage,,150,71
+1436678767860,2160,HTTP Request,200,OK,Thread Group 1-2,text,true,681749,11,11,http://52.10.207.79:8080/getupimage,,1016,69
+1436678768062,3124,HTTP Request,200,OK,Thread Group 1-3,text,true,681749,16,16,http://52.10.207.79:8080/getupimage,,1967,68
+1436678768262,3950,HTTP Request,200,OK,Thread Group 1-4,text,true,681749,20,20,http://52.10.207.79:8080/getupimage,,2795,69
+1436678772479,9446,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-25,text,false,2452,46,46,http://52.10.207.79:8080/getupimage,,0,69
+1436678771271,12155,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-19,text,false,2452,45,45,http://52.10.207.79:8080/getupimage,,0,3065
+1436678772275,12157,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-24,text,false,2452,44,44,http://52.10.207.79:8080/getupimage,,0,3075
+1436678772878,12163,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-27,text,false,2452,43,43,http://52.10.207.79:8080/getupimage,,0,9068
+1436678775683,9438,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-41,text,false,2452,42,42,http://52.10.207.79:8080/getupimage,,0,69
+1436678768462,17306,HTTP Request,200,OK,Thread Group 1-5,text,true,681749,41,41,http://52.10.207.79:8080/getupimage,,3782,162
+1436678776690,9433,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-46,text,false,2452,40,40,http://52.10.207.79:8080/getupimage,,0,70
+1436678774281,12166,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-34,text,false,2452,39,39,http://52.10.207.79:8080/getupimage,,0,3065
+1436678768662,18004,HTTP Request,200,OK,Thread Group 1-6,text,true,681749,38,38,http://52.10.207.79:8080/getupimage,,16776,165
+1436678768865,18879,HTTP Request,200,OK,Thread Group 1-7,text,true,681749,37,37,http://52.10.207.79:8080/getupimage,,17752,67
+1436678769264,18974,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-9,text,false,2516,36,36,http://52.10.207.79:8080/getupimage,,0,67
+1436678770267,18255,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-14,text,false,2452,35,35,http://52.10.207.79:8080/getupimage,,0,9074
+1436678769067,19605,HTTP Request,200,OK,Thread Group 1-8,text,true,681749,34,34,http://52.10.207.79:8080/getupimage,,18556,67
+1436678777089,12159,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-48,text,false,2452,33,33,http://52.10.207.79:8080/getupimage,,0,3073
+1436678774085,15246,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-33,text,false,2452,32,32,http://52.10.207.79:8080/getupimage,,0,166
+1436678770467,18978,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-15,text,false,2516,31,31,http://52.10.207.79:8080/getupimage,,0,68
+1436678770070,19753,HTTP Request,200,OK,Thread Group 1-13,text,true,681749,30,30,http://52.10.207.79:8080/getupimage,,18547,69
+1436678771674,18154,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-21,text,false,2452,29,29,http://52.10.207.79:8080/getupimage,,0,9063
+1436678771071,18968,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-18,text,false,2516,28,28,http://52.10.207.79:8080/getupimage,,0,67
+1436678769665,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-11,text,false,2266,27,27,http://52.10.207.79:8080/getupimage,,0,0
+1436678769467,21350,HTTP Request,200,OK,Thread Group 1-10,text,true,681749,26,26,http://52.10.207.79:8080/getupimage,,20292,67
+1436678771878,18975,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-22,text,false,2516,25,25,http://52.10.207.79:8080/getupimage,,0,69
+1436678770672,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-16,text,false,2266,24,24,http://52.10.207.79:8080/getupimage,,0,0
+1436678772076,19743,HTTP Request,200,OK,Thread Group 1-23,text,true,681749,23,23,http://52.10.207.79:8080/getupimage,,18685,69
+1436678770874,21008,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-17,text,false,2266,22,22,http://52.10.207.79:8080/getupimage,,0,0
+1436678771478,21005,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-20,text,false,2266,21,21,http://52.10.207.79:8080/getupimage,,0,0
+1436678772677,20394,HTTP Request,200,OK,Thread Group 1-26,text,true,681749,20,20,http://52.10.207.79:8080/getupimage,,19212,9064
+1436678773482,21012,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-30,text,false,2266,19,19,http://52.10.207.79:8080/getupimage,,0,0
+1436678773682,21011,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-31,text,false,2266,18,18,http://52.10.207.79:8080/getupimage,,0,0
+1436678777496,17288,HTTP Request,200,OK,Thread Group 1-50,text,true,681749,17,17,http://52.10.207.79:8080/getupimage,,15520,9070
+1436678773884,20994,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-32,text,false,2266,16,16,http://52.10.207.79:8080/getupimage,,0,0
+1436678773076,22909,HTTP Request,200,OK,Thread Group 1-28,text,true,681749,15,15,http://52.10.207.79:8080/getupimage,,21783,164
+1436678775082,21003,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-38,text,false,2266,14,14,http://52.10.207.79:8080/getupimage,,0,0
+1436678775285,21001,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-39,text,false,2266,13,13,http://52.10.207.79:8080/getupimage,,0,0
+1436678775487,21002,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-40,text,false,2266,12,12,http://52.10.207.79:8080/getupimage,,0,0
+1436678776084,21204,HTTP Request,200,OK,Thread Group 1-43,text,true,681749,11,11,http://52.10.207.79:8080/getupimage,,19978,9068
+1436678776491,21003,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-45,text,false,2266,10,10,http://52.10.207.79:8080/getupimage,,0,0
+1436678776889,21000,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-47,text,false,2266,9,9,http://52.10.207.79:8080/getupimage,,0,0
+1436678777291,20996,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connection to http://52.10.207.79:8080 refused,Thread Group 1-49,text,false,2266,8,8,http://52.10.207.79:8080/getupimage,,0,0
+1436678773275,25297,HTTP Request,200,OK,Thread Group 1-29,text,true,681749,7,7,http://52.10.207.79:8080/getupimage,,24087,9077
+1436678774483,25303,HTTP Request,200,OK,Thread Group 1-35,text,true,681749,6,6,http://52.10.207.79:8080/getupimage,,24168,9064
+1436678775886,25112,HTTP Request,200,OK,Thread Group 1-42,text,true,681749,5,5,http://52.10.207.79:8080/getupimage,,23971,9075
+1436678776289,31108,HTTP Request,200,OK,Thread Group 1-44,text,true,681749,4,4,http://52.10.207.79:8080/getupimage,,25063,9070
+1436678774882,32843,HTTP Request,200,OK,Thread Group 1-37,text,true,681749,3,3,http://52.10.207.79:8080/getupimage,,31723,3067
+1436678774683,34226,HTTP Request,200,OK,Thread Group 1-36,text,true,681749,2,2,http://52.10.207.79:8080/getupimage,,33118,9163
+1436678769865,40428,HTTP Request,200,OK,Thread Group 1-12,text,true,681749,1,1,http://52.10.207.79:8080/getupimage,,39184,9072

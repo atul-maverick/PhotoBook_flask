@@ -1,0 +1,28 @@
+<v-modal class="vModal--default" onclose="loginModal.close()">
+      <v-dialog heading="Account Login" small>
+        <v-close label="Close"></v-close>
+
+        <h3 id="loginModalHeading" class="u-marginBm">Account Login</h3>
+
+        <form class="Form" name="loginForm">
+          <div class="Form-item Form-item--stacked">
+            <label class="Form-label" for="emailInput">Email</label>
+            <input class="Input Input--default u-sizeFull" ng-model="model.email" type="email" id="emailInput" name="email" placeholder="hi@yourdomain.com">
+          </div>
+
+          <div class="Form-item Form-item--stacked">
+            <label class="Form-label" for="passwordInput">Password</label>
+            <input class="Input Input--default u-sizeFull" ng-model="model.password" type="password" id="passwordInput" name="password" placeholder="••••••">
+          </div>
+        </form>
+
+        <hr>
+
+        <div>
+          <button class="Button Button--default Button--lg">Login</button>
+          <small class="u-inlineBlock u-marginHs u-alignMiddle">or</small>
+          <button class="Button">Create Account</button>
+        </div>
+
+      </v-dialog>
+    </v-modal>

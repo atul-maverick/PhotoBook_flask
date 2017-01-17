@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.8" jmeter="2.13 r1665067">
+  <hashTree>
+    <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
+      <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+      <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="" elementType="HTTPArgument">
+            <boolProp name="HTTPArgument.always_encode">false</boolProp>
+            <stringProp name="Argument.value">{&#xd;
+	&quot;username&quot;:&quot;tester@gmail.com&quot;,&quot;passwd&quot;:&quot;tester123&quot;,&quot;uuid_data&quot;:&quot;cb97d2ee-9f58-412c-aacd-2d9101bdd8b4&quot;,&quot;comment&quot;:&quot;Hey!! Nice pic&quot;&#xd;
+		&#xd;
+}&#xd;
+</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="HTTPSampler.domain">52.10.207.79</stringProp>
+      <stringProp name="HTTPSampler.port">8080</stringProp>
+      <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+      <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      <stringProp name="HTTPSampler.protocol">http</stringProp>
+      <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+      <stringProp name="HTTPSampler.path">/postcomment</stringProp>
+      <stringProp name="HTTPSampler.method">POST</stringProp>
+      <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+      <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+      <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+      <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+      <boolProp name="HTTPSampler.monitor">false</boolProp>
+      <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+    </HTTPSamplerProxy>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>

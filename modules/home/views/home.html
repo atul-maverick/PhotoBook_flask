@@ -1,0 +1,64 @@
+<h1>Your Photobook Account</h1>
+<pre>Logged in as {{username}}</pre>
+<p>Home &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#/login">Logout</a></a></p>
+<!--<input type="file" ngf-select="onFileSelect($files)" multiple> -->
+<ul class="nav nav-pills nav-justified">
+<div type="button" class="btn btn-primary" ngf-select ng-model="files" ngf-multiple="multiple">Upload Image</div>
+    <button  type="button" class="btn btn-primary"  ng-click="getAllMyimage()"> My Images </button>
+    <button  type="button" class="btn btn-primary"  ng-click="getAllimages()"> All Images </button>
+</ul>
+</br>
+</br>
+Drop Image File to Upload:
+<div ngf-drop ngf-select ng-model="files" class="drop-box"
+     ngf-drag-over-class="dragover" ngf-multiple="true" ngf-allow-dir="true"
+     accept="image/*,application/pdf">Drop images here or click to upload</div>
+<div ngf-no-file-drop>File Drag/Drop is not supported for this browser</div>
+</br>
+</br>
+<button  type="button" class="btn btn-primary" ng-show="upButton" ng-click="getUpimage()"> Click to check uploaded image </button>
+<pre ng-show="imageloading"><img ng-if="imageloading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="/> Loading Images...</pre>
+<div ng-show="show_images"></br></br> <img class="img-responsive" alt="sample" ng-src="data:image/png;base64,{{image}}"> </div>
+</br>
+<div ng-show="fileupload">
+Files:
+<ul>
+    <li ng-repeat="f in files" style="font-family:smaller">{{f.name}}</li>
+</ul>
+Upload Log:
+<pre>{{log}}</pre>
+</div>
+<div ng-show="show_myimages"  data-ng-repeat="(key, value) in myimages">
+    <pre>
+       <p style="font-style: italic;font-size: 14px;"> <img class="img-responsive" ng-src="data:image/png;base64,{{value}}" >  Delete  <button ng-click="deleteImg(key)" type="button" class="btn btn-default" aria-label="Right Align">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    </button></p>
+        <div id=key ng-if="cphotoComments.uuid==key" ng-show="pcomment" style="font-style: italic;font-size: 14px;">Comments:
+                <li data-ng-repeat="(k,v) in cphotoComments.comment" style="font-style: italic;font-size: 14px;">{{v.user}}  {{v.user_comment}}</li>
+        </div>
+        <button  type="button" class="btn btn-primary pull-right"  ng-click='getComments(key)'>See All Comments!!</button>
+    <input type="text" class="form-control" id="usr"  ng-model="pimage.inputcomment" placeholder="Enter comment......." required="" >
+        <button  type="button" class="btn btn-primary pull-left"  ng-click='postcomment(pimage,key)'>Comment!!</button>
+        </a></pre>
+    </br>
+    </br>
+    </br>
+    </br>
+</div>
+<h2>{{Message}}</h2>
+<div ng-show="show_allimages"  data-ng-repeat="(key, value) in allimages">
+    <pre>
+       <p style="font-style: italic;font-size: 14px;"> <img class="img-responsive" ng-src="data:image/png;base64,{{value}}" > </p>
+        <div id="akey" ng-if="cphotoComments.uuid==key" ng-show="pcomment" style="font-style: italic;font-size: 14px;">Comments:
+            <li data-ng-repeat="(k,v) in cphotoComments.comment" style="font-style: italic;font-size: 14px;">{{v.user}}  {{v.user_comment}}</li>
+        </div>
+        <button  type="button" class="btn btn-primary pull-right"  ng-click='getComments(key)'>See All Comments!!</button>
+    <input type="text" class="form-control" id="ausr"  ng-model="pimage.inputcomment" placeholder="Enter comment......." required="" >
+        <button  type="button" class="btn btn-primary pull-left"  ng-click='postcomment(pimage,key)'>Comment!!</button>
+        </a></pre>
+    </br>
+    </br>
+    </br>
+    </br>
+</div>

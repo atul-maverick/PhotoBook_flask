@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,bytes,grpThreads,allThreads,URL,Filename,Latency,Connect
+1436674168640,1077,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,text,false,2662,3,3,http://52.10.207.79:8080/uploadpics,,0,70
+1436674165638,4079,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,text,false,2662,3,3,http://52.10.207.79:8080/uploadpics,,0,71
+1436674167138,2581,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,text,false,2662,2,2,http://52.10.207.79:8080/uploadpics,,0,70
+1436674179752,12128,HTTP Request,200,OK,Thread Group 1-1,text,true,282,9,9,http://52.10.207.79:8080/uploadpics,,12128,70
+1436674181256,15093,HTTP Request,200,OK,Thread Group 1-2,text,true,282,9,9,http://52.10.207.79:8080/uploadpics,,15092,68
+1436674182754,18977,HTTP Request,200,OK,Thread Group 1-3,text,true,282,8,8,http://52.10.207.79:8080/uploadpics,,18976,73
+1436674184256,21463,HTTP Request,200,OK,Thread Group 1-4,text,true,282,7,7,http://52.10.207.79:8080/uploadpics,,21463,69
+1436674190256,18982,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset by peer: socket write error,Thread Group 1-8,text,false,2754,6,6,http://52.10.207.79:8080/uploadpics,,0,69
+1436674191757,568171,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,2662,5,5,http://52.10.207.79:8080/uploadpics,,0,69
+1436674185757,574171,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-5,text,false,2662,5,5,http://52.10.207.79:8080/uploadpics,,0,72
+1436674193256,566673,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,2662,5,5,http://52.10.207.79:8080/uploadpics,,0,67
+1436674188759,571172,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,2662,4,4,http://52.10.207.79:8080/uploadpics,,0,68
+1436674187255,572678,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,2662,3,3,http://52.10.207.79:8080/uploadpics,,0,69
