@@ -13,15 +13,21 @@ angular.module('Authentication')
             $timeout(function(){
                 //var response = { success: username === 'test' && password === 'test' };
                 var response={}
-                var url= 'user/pwd/checkpasswd';
+                //var currurl= 'auth/pwd/checkpasswd';
 
-                $http.post(url,{'uname':username,'passwd':password}).success(function(data)
+                $http({
+                    url: "auth/login",
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    data: {"username": username, "password":password}
+                }).success(function(data)
                 {
-                    if(data== "True")
+                    console.log(data.access_token);
+                    if(data.access_token)
                     {
-                        response ={success: true}
+                        response ={success: true,token:data.access_token}
                     }
-                    if(!response.success) {
+                   else{
                         response.message = 'Username or password is incorrect';
                     }
                     callback(response);
@@ -40,24 +46,24 @@ angular.module('Authentication')
 
         };
  
-        service.SetCredentials = function (username, password) {
-            var authdata = Base64.encode(username + ':' + password);
+        service.SetCredentials = function (token,uname) {
+           // var authdata = Base64.encode(username + ':' + password);
 
             $rootScope.globals = {
                 currentUser: {
-                    username: username,
-                    authdata: authdata
+                     username: uname,
+                     authdata: token
                 }
             };
  
-            $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
+            $http.defaults.headers.common['Authorization'] = 'JWT ' + token; // jshint ignore:line
             $cookieStore.put('globals', $rootScope.globals);
         };
  
         service.ClearCredentials = function () {
             $rootScope.globals = {};
             $cookieStore.remove('globals');
-            $http.defaults.headers.common.Authorization = 'Basic ';
+            $http.defaults.headers.common.Authorization = 'JWT ';
         };
  
         return service;

@@ -28,7 +28,7 @@ angular.module('Home',['ngFileUpload'])
                 for (var i = 0; i < files.length; i++) {
                     var file = files[i];
                     Upload.upload({
-                        url: '/uploadpics',
+                        url: '/image/',
                         fields: {
                             'username': $rootScope.globals.currentUser.username
                         },
@@ -40,7 +40,7 @@ angular.module('Home',['ngFileUpload'])
                     }).success(function (data, status, headers, config) {
                         $scope.upButton=true
                         $timeout(function() {
-
+                            data=JSON.parse(data);
                             $scope.log = 'file: ' + config.file.name + ', Response: ' + JSON.stringify(data["message"]) + '\n' + $scope.log;
                             $scope.uuid=data["img"]["uuid"]
                             $scope.upuname=data["img"]["username"]
@@ -53,8 +53,8 @@ angular.module('Home',['ngFileUpload'])
 
         $scope.getUpimage = function(){
             $scope.fileupload=false
-            var url ="/getupimage"
-            $http.post(url,{"uuid":$scope.uuid,"username":$scope.upuname}).success(function(data) {
+            var url ="/image/"+$scope.uuid
+            $http.get(url).success(function(data) {
                 $scope.show_images=true
 
                 $scope.image=data
@@ -66,13 +66,13 @@ angular.module('Home',['ngFileUpload'])
         $scope.getAllMyimage = function(){
             $scope.fileupload=false
             $scope.imageloading=true
-            var url ="/getAllMyImage"
-            $http.post(url,{"username":$rootScope.globals.currentUser.username}).success(function(data) {
+            var url ="/image/allimages"
+            $http.get(url).success(function(data) {
                 $scope.show_allimages=false
                 $scope.show_myimages=true
                 $scope.imageloading=false
                 // console.log(data)
-
+                data=JSON.parse(data)
                 $scope.myimages=data
 
             });
@@ -82,7 +82,7 @@ angular.module('Home',['ngFileUpload'])
             $scope.fileupload=false
             $scope.imageloading=true
             var url ="/getAllImages"
-            $http.post(url).success(function(data) {
+            $http.get(url).success(function(data) {
 
                 $scope.show_myimages=false
                 $scope.show_allimages=true

@@ -1,19 +1,16 @@
 from flask import Flask, send_from_directory, Blueprint, request
 from flask_restful import Resource, Api
-import pdb 
+from flask_jwt.flask_jwt import JWT, jwt_required
+from flask import curent_app as app
+import pdb
 import py_mongo
-
+from flaskApp import app
 passwd=Blueprint('password', __name__)
 api=Api(passwd)
 
-# class Password(Resource):
-	# def put(self):
-	
-		
-		
-# api.add_resource(Password,'/')
 
-@passwd.route('/checkpasswd',methods=['POST','GET'])
+@app.route('/pwd/checkpasswd',methods=['POST'])
+@jwt_required()
 def check_passwd():
     request_json=request.json
     uname= request_json["uname"]
@@ -24,3 +21,5 @@ def check_passwd():
     else:
         response="False"
     return response
+
+
